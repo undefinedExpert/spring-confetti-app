@@ -1,7 +1,12 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'eclipse'
+    id 'org.springframework.boot' version '1.5.9.RELEASE'
+}
+
 group 'eslotwinski'
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
@@ -10,5 +15,6 @@ repositories {
 }
 
 dependencies {
-    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.0.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+
 }
