@@ -40,7 +40,6 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
-src/
 # User-specific stuff:
 .idea/workspace.xml
 .idea/tasks.xml
