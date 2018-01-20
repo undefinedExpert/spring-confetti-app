@@ -1,1 +1,1 @@
-"# spring-confetti-app" 
+# spring-confetti-app"
