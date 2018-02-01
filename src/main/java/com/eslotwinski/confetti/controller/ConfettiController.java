@@ -6,10 +6,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class ConfettiController {
-  
+
   @RequestMapping("/")
   @ResponseBody
   public String listConfetti() {
     return "list all confetti";
+  }
+
+  @RequestMapping("/confetti")
+  @ResponseBody
+  public String singleConfetti() {
+    return "Show single confetti";
   }
 }
